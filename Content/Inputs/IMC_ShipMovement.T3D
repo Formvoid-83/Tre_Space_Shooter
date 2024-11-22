@@ -1,0 +1,18 @@
+Begin Object Class=/Script/EnhancedInput.InputMappingContext Name="IMC_ShipMovement" ExportPath="/Script/EnhancedInput.InputMappingContext'/Game/Inputs/Actions/IMC_ShipMovement.IMC_ShipMovement'"
+   Begin Object Class=/Script/EnhancedInput.InputModifierNegate Name="InputModifierNegate_1" ExportPath="/Script/EnhancedInput.InputModifierNegate'/Game/Inputs/Actions/IMC_ShipMovement.IMC_ShipMovement:InputModifierNegate_1'"
+   End Object
+   Begin Object Class=/Script/EnhancedInput.InputModifierNegate Name="InputModifierNegate_0" ExportPath="/Script/EnhancedInput.InputModifierNegate'/Game/Inputs/Actions/IMC_ShipMovement.IMC_ShipMovement:InputModifierNegate_0'"
+   End Object
+   Begin Object Class=/Script/EnhancedInput.InputModifierDeadZone Name="InputModifierDeadZone_0" ExportPath="/Script/EnhancedInput.InputModifierDeadZone'/Game/Inputs/Actions/IMC_ShipMovement.IMC_ShipMovement:InputModifierDeadZone_0'"
+   End Object
+   Begin Object Name="InputModifierNegate_1" ExportPath="/Script/EnhancedInput.InputModifierNegate'/Game/Inputs/Actions/IMC_ShipMovement.IMC_ShipMovement:InputModifierNegate_1'"
+   End Object
+   Begin Object Name="InputModifierNegate_0" ExportPath="/Script/EnhancedInput.InputModifierNegate'/Game/Inputs/Actions/IMC_ShipMovement.IMC_ShipMovement:InputModifierNegate_0'"
+   End Object
+   Begin Object Name="InputModifierDeadZone_0" ExportPath="/Script/EnhancedInput.InputModifierDeadZone'/Game/Inputs/Actions/IMC_ShipMovement.IMC_ShipMovement:InputModifierDeadZone_0'"
+   End Object
+   Mappings(0)=(Modifiers=("/Script/EnhancedInput.InputModifierDeadZone'InputModifierDeadZone_0'"),Action="/Script/EnhancedInput.InputAction'/Game/Inputs/Actions/IA_MoveRight.IA_MoveRight'",Key=D)
+   Mappings(1)=(PlayerMappableOptions=(Name="IA_MoveRight",DisplayName=NSLOCTEXT("", "D31D630F4C9906A1AB4A34AB182C7EC6", "IA_MoveRight")),Modifiers=("/Script/EnhancedInput.InputModifierNegate'InputModifierNegate_0'"),Action="/Script/EnhancedInput.InputAction'/Game/Inputs/Actions/IA_MoveRight.IA_MoveRight'",Key=A)
+   Mappings(2)=(PlayerMappableOptions=(Name="IA_MoveRight",DisplayName=NSLOCTEXT("", "866E305A4145BFE65090608D1833E62F", "IA_MoveRight")),Action="/Script/EnhancedInput.InputAction'/Game/Inputs/Actions/IA_MoveRight.IA_MoveRight'",Key=Right)
+   Mappings(3)=(PlayerMappableOptions=(Name="IA_MoveRight",DisplayName=NSLOCTEXT("", "BB5D59164076D4E09585B5811872F061", "IA_MoveRight")),Modifiers=("/Script/EnhancedInput.InputModifierNegate'InputModifierNegate_1'"),Action="/Script/EnhancedInput.InputAction'/Game/Inputs/Actions/IA_MoveRight.IA_MoveRight'",Key=Left)
+End Object
